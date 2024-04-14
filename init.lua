@@ -90,7 +90,7 @@ P.S. You can delete this when you're done too. It's your config now! :)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
-if vim.fn.has 'win32' then
+if vim.fn.has 'win32' == 1 then
   vim.o.shell = 'pwsh'
   vim.o.shellcmdflag = '-command'
   vim.o.shellquote = '"'
