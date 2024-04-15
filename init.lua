@@ -237,6 +237,9 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup({
   -- MY ADDED PLUGINS --
   {
+    'tpope/vim-fugitive',
+  },
+  {
     'nvim-tree/nvim-tree.lua',
     version = '*',
     lazy = false,
