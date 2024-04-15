@@ -236,9 +236,9 @@ vim.opt.rtp:prepend(lazypath)
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup({
   -- MY ADDED PLUGINS --
-  {
-    'tpope/vim-fugitive',
-  },
+  { 'tpope/vim-fugitive' },
+  { 'tjdevries/templ.nvim' },
+  { 'HiPhish/rainbow-delimiters.nvim' },
   {
     'nvim-tree/nvim-tree.lua',
     version = '*',
@@ -250,8 +250,6 @@ require('lazy').setup({
       require('nvim-tree').setup {}
     end,
   },
-  { 'HiPhish/rainbow-delimiters.nvim' },
-  { 'tjdevries/templ.nvim' },
   -- END MY ADDED PLUGINS --
 
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
