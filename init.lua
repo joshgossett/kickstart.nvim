@@ -248,6 +248,7 @@ require('lazy').setup({
     end,
   },
   { 'HiPhish/rainbow-delimiters.nvim' },
+  { 'tjdevries/templ.nvim' },
   -- END MY ADDED PLUGINS --
 
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
