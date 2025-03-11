@@ -21,7 +21,14 @@ return {
     'rebelot/kanagawa.nvim',
     priority = 1000,
     init = function()
-      vim.cmd.colorscheme 'kanagawa-wave'
+      -- vim.cmd.colorscheme 'kanagawa-wave'
+    end,
+  },
+  {
+    'vv9k/bogster',
+    priority = 1000,
+    init = function()
+      vim.cmd.colorscheme 'bogster'
     end,
   },
 }
